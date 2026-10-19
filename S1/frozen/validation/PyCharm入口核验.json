@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "verified_local": "2026-10-04T19:38:54.393612",
+  "single_seed_entry": {
+    "status": "PASS",
+    "mode": "fresh",
+    "seed_count": 1,
+    "main_rows": 225,
+    "sensitivity_rows": 450,
+    "reference_comparisons": {
+      "formal_detail_100seeds.csv": 225,
+      "sensitivity_detail_100seeds.csv": 450
+    },
+    "checkpoint_units": 3,
+    "new_search_units": 3,
+    "reused_checkpoint_units": 0,
+    "CI_recomputed": false,
+    "runtime_match_required": false,
+    "figures_generated": false
+  },
+  "verify_entry": {
+    "status": "PASS",
+    "mode": "verify",
+    "seed_count": 100,
+    "main_rows": 22500,
+    "sensitivity_rows": 45000,
+    "reference_comparisons": {
+      "formal_detail_100seeds.csv": 22500,
+      "sensitivity_detail_100seeds.csv": 45000,
+      "strategy_summary_100seeds.csv": 225,
+      "paired_comparisons_100seeds.csv": 360,
+      "budget_effects_100seeds.csv": 60,
+      "sensitivity_strategy_summary_100seeds.csv": 450,
+      "sensitivity_paired_comparisons_100seeds.csv": 720,
+      "sensitivity_budget_effects_100seeds.csv": 120,
+      "sensitivity_intensity_effects_100seeds.csv": 180,
+      "sensitivity_gap_effects_100seeds.csv": 120
+    },
+    "checkpoint_units": 0,
+    "new_search_units": 0,
+    "reused_checkpoint_units": 0,
+    "CI_recomputed": true,
+    "runtime_match_required": false,
+    "figures_generated": true
+  },
+  "unconfigured_venv_guard": "PASS",
+  "full_entry": "delegates to the unchanged fresh/all engine; not rerun for 100 seeds in this interface-only update",
+  "core_assets_checked": {
+    "reference/ASSET_HASHES.json": 317,
+    "CODE_HASHES.json": 8
+  }
+}

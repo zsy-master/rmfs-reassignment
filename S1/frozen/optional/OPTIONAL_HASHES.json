@@ -1,0 +1,19 @@
+{
+  "_common.py": "47bc842a684cb55baf4ee2a86bd624297a679d0f960fde5973a45b11b8c1d30b",
+  "benchmark.py": "0b8b110fe06bfebb03e6037d680f472aca16d5c41bf49a9b521705493f75157c",
+  "legacy/benchmark_runtime.py": "56510c1df1df4cd817cb5f28789a2aa734a6601eef42ab610879e11c8aac8b40",
+  "legacy/experiment_runner.py": "66b83ed248a75411196b8df7cf645a63fcbcab9c0c35751add7f3ebc98e0c364",
+  "legacy/protocol_config.json": "2a90bbe7958855c37df27eea6e368ad520d62d3dd2076ab8dde81b25329cdee2",
+  "legacy/run_real_data_validation.py": "1c72f24593ee69c487959263934aa869c5da7432a64034813c0045410264eaa3",
+  "real_data.py": "112d7dcfc0373f659367b9dbd554f298b91e5362bbfe37103dc4b5cbcd5c86bb",
+  "reference/real_data_cases.csv": "427bcd1bf9ca41f8a3f4edef2ae8011c48f32fca2ab2c76698b8a0254db24f66",
+  "reference/real_data_diagnostics.csv": "644d8f69d634423d01db5511c3ab9e92717fe254e660b57a4a0be3b6ade5f53e",
+  "reference/real_data_m_vs_b2_summary.csv": "6f347a1c655334c80749ee7451cc23308492dd3ad176b1e94a0f16d9516ca0ac",
+  "reference/REAL_DATA_PROTOCOL.md": "193470db404f0246dae663446971aa1d720030fea121e9fbd66615ed2c580395",
+  "reference/real_data_results.csv": "766a1982f4984a2792214cc8b43d2ad71c115be6347738f7313f767151364416",
+  "reference/real_data_run_manifest.json": "e02595142fddb04b74ee2629287a03240ca87941211930402fa57898e536a4f8",
+  "reference/RUNTIME_BENCHMARK_PROTOCOL.md": "002821a4a50857b79293bd50d64c53ea339af63c27ce38cac53d66f099977600",
+  "reference/runtime_environment.txt": "568e86ae665044baf356eaf9c2ea7bde2fa86c9c4d731cc670671ad329052d72",
+  "reference/Runtime_Summary.csv": "324e0ea34ee45acb34faee528632051929d0a336964e8a1e36fef6ad86533239",
+  "reference/Runtime_Table.csv": "b0570ef3176a175435a3f659876913b51f56212af7e39ad336b2e9b01319df6f"
+}

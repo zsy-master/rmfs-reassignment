@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "mode": "statistics",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "workers": 4,
+  "package_files_checked": 518,
+  "steps": [
+    {
+      "script": "revision.py",
+      "arguments": [
+        "preflight"
+      ],
+      "completed": true
+    },
+    {
+      "script": "frozen/reproduce.py",
+      "arguments": [
+        "verify",
+        "--scope",
+        "all",
+        "--figures",
+        "--output",
+        "LOCAL_PATH/primary"
+      ],
+      "completed": true
+    },
+    {
+      "script": "revision.py",
+      "arguments": [
+        "aggregate",
+        "--output",
+        "LOCAL_PATH/cohorts"
+      ],
+      "completed": true
+    },
+    {
+      "script": "paper_outputs.py",
+      "arguments": [
+        "--primary",
+        "LOCAL_PATH/primary",
+        "--cohorts",
+        "LOCAL_PATH/cohorts",
+        "--output",
+        "LOCAL_PATH/paper"
+      ],
+      "completed": true
+    }
+  ],
+  "elapsed_seconds": 27.642246500006877
+}

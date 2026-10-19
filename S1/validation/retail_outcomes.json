@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "mode": "real_data",
+  "n_cases": 5,
+  "workbook_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "reference_comparisons": {
+    "real_data_cases.csv": 5,
+    "real_data_results.csv": 375,
+    "real_data_diagnostics.csv": 5,
+    "real_data_m_vs_b2_summary.csv": 15
+  },
+  "runtime_match_required": false
+}

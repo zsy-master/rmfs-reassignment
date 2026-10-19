@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Final documentation-only update after reviewer audit",
+  "readme_before_sha256": "22f0ed63e30518a2f74e24d595f9b93d1500d002655113fe999cba3ce9906b9e",
+  "readme_after_sha256": "096f2c8080d74fb7ed15b85f95226d4d401aa36693d10ae35c4f58b6d51d40e3",
+  "randomness_before_sha256": "d8f6777c4395bd2ff3f3a652576a81bd043e697a10eab1b366e69bd4e060b186",
+  "randomness_after_sha256": "e2891a89f729bbcad559cef0890b1708c6c8f0969add2ae91f6a2060a109d503",
+  "changes": [
+    "Add optional replay command and distinguish stored paths from fresh search",
+    "State exact retail B1 payload",
+    "Identify the final validation record; preserve the scopes of earlier reports"
+  ],
+  "scientific_sources_results_and_protocol_unchanged": true,
+  "historical_validation_reports": "Retain original scopes; FINAL_VALIDATION.json records final package checks.",
+  "date": "2026-10-20T00:01:58+08:00",
+  "preexisting_files_byte_identical_excluding_two_docs_and_manifest": 515
+}

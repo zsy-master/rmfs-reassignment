@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "date": "2026-10-19",
+  "scope": "Submission-copy packaging validation",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "omitted_auxiliary_files": 14,
+  "frozen_documentation_replacements": 1,
+  "all_eight_core_modules_byte_identical": true,
+  "other_revision_functions_AST_identical": true,
+  "revision_changes": "distribution policy and preflight only; archived original at provenance/revision_v2.py",
+  "protocol_sha256_unchanged": "c2c2f2cd4c28ee0971bad10ce9003b8bfacda42a7a3b2930f08842f645523b65",
+  "current_revision_sha256": "d75830d46f01d408b8a1f5bfce23cba74532f10348e2f731a090185331f66bd8",
+  "current_runs": {
+    "integrity": "PASS; 355 present frozen files checked; exact 14 approved auxiliary omissions",
+    "integrity_fault_checks": "PASS; corrupted core/reference data, extra omission and extra documentation exceptions rejected",
+    "statistics": "PASS; 22,500 primary and 45,000 sensitivity rows; pooled/cohort statistics; tables 1-5 and figures 1-3",
+    "fresh_smoke": "PASS; first seed, 3 fresh primary search units, 225 primary + 450 sensitivity rows; 2 Q2 selections and decision trace"
+  },
+  "historical_runs_retained": {
+    "retail_five_cases_375_outcomes": "Freshly reproduced on 2026-10-19 before slimming; report validation/retail_outcomes.json; scientific code and data unchanged",
+    "full_primary": "Historical report frozen/validation/100种子复现.json; 300 completed units with 251 new and 49 resumed",
+    "full_Q2": "Original revision report results/batch_report.json; 100 seeds and 200 Q2 units"
+  },
+  "rerun_full_primary_this_packaging_step": false,
+  "rerun_full_Q2_this_packaging_step": false,
+  "rerun_full_retail_this_packaging_step": false,
+  "scientific_outcomes_changed": false,
+  "originals_preserved": true,
+  "upload_or_submission_performed": false,
+  "next_validation": "The packed ZIP is independently extracted and checked; report delivered separately as 精简包核验.json"
+}

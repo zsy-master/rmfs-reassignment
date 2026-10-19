@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cells": 90,
+  "means_and_CI_from_frozen_csv": true,
+  "cell_font_pt": 10.5,
+  "axis_font_pt": 9,
+  "caption_note_font_pt": 8.5,
+  "printed_width_inches": 6.75,
+  "source_sha256": "0010b45204ac303bc3f2062ff0f5aa87ec49dbc871fbf8323448862b633ea4ca"
+}

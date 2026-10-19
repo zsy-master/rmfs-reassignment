@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "mode": "replay",
+  "seed_count": 1,
+  "main_rows": 225,
+  "sensitivity_rows": 450,
+  "reference_comparisons": {
+    "formal_detail_100seeds.csv": 225,
+    "sensitivity_detail_100seeds.csv": 450
+  },
+  "checkpoint_units": 3,
+  "new_search_units": 0,
+  "reused_checkpoint_units": 0,
+  "CI_recomputed": false,
+  "runtime_match_required": false,
+  "figures_generated": false
+}

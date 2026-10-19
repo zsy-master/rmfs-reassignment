@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "time": "2026-10-20T00:01:58+08:00",
+  "scope": "Final package; documentation updates only after the scientific reviewer revision",
+  "preexisting_files_byte_identical_excluding_two_docs_and_manifest": 515,
+  "scientific_code_results_protocol_and_seed_lists_unchanged": true,
+  "protocol_sha256": "c2c2f2cd4c28ee0971bad10ce9003b8bfacda42a7a3b2930f08842f645523b65",
+  "revision_sha256": "d75830d46f01d408b8a1f5bfce23cba74532f10348e2f731a090185331f66bd8",
+  "checks_executed_for_final_copy": {
+    "statistics": "PASS; all 100 archived seeds, 22500 primary + 45000 sensitivity rows; all cohort statistics and paper tables/figures",
+    "fresh_execution_smoke": "PASS; first seed, three intensity search units, Q2 abrupt/gradual selections and Q4 trace",
+    "checkpoint_replay": "PASS; first seed, 3 intensity units; stored paths only, zero new search units"
+  },
+  "final_reports": [
+    "FINAL_STATISTICS.json",
+    "FINAL_STATISTICS_PRIMARY.json",
+    "FINAL_COHORTS.json",
+    "FINAL_PAPER_OUTPUTS.json",
+    "FINAL_SMOKE.json",
+    "FINAL_REPLAY.json"
+  ],
+  "retained_previous_checks": {
+    "retail": "validation/retail_extraction.json and retail_outcomes.json; 5 cases, 375 outcomes, public workbook hash and exact invoice memberships; executed on 2026-10-19",
+    "full_Q2": "results/batch_report.json; original revision 100 seeds, 200 Q2 selection units",
+    "full_synthetic": "frozen/validation/100种子复现.json; historical completed 300 units, 251 newly executed and 49 resumed"
+  },
+  "full_100_seed_search_rerun_in_final_packaging": false,
+  "full_Q2_rerun_in_final_packaging": false,
+  "full_retail_rerun_in_final_packaging": false,
+  "unfavorable_results_retained": true,
+  "manifest_policy": "SHA256SUMS.json contains raw-byte SHA-256 of every distributed file except itself",
+  "archive_policy": "Archive is independently extracted and checked; final external report accompanies the manuscript delivery"
+}

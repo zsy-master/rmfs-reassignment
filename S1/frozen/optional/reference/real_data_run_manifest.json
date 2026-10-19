@@ -1,0 +1,102 @@
+{
+  "created_at_utc": "2026-09-24T11:59:49.293963+00:00",
+  "go": true,
+  "n_cases": 5,
+  "protocol": {
+    "calibration_baskets": 5000,
+    "initial_orders": 400,
+    "decision_orders": 200,
+    "test_orders": 400,
+    "minimum_projected_skus": 2,
+    "budgets": [
+      1,
+      3,
+      5
+    ],
+    "lambdas": [
+      0.0,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ]
+  },
+  "cleaning": {
+    "workbook_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+    "sheets": [
+      "Year 2009-2010",
+      "Year 2010-2011"
+    ],
+    "input_rows_by_sheet": {
+      "Year 2009-2010": 525461,
+      "Year 2010-2011": 541910
+    },
+    "input_rows_total": 1067371,
+    "dropped_missing_invoice_stock_or_date": 0,
+    "dropped_missing_or_blank_description": 4382,
+    "dropped_unparseable_date_quantity_or_price": 0,
+    "dropped_cancellation_rows": 19494,
+    "dropped_nonpositive_quantity_rows_after_cancellation_filter": 768,
+    "dropped_nonpositive_unit_price_rows": 1057,
+    "dropped_nonmerchandise_stockcode_rows": 6049,
+    "excluded_stockcodes": [
+      "15056BL",
+      "79323GR",
+      "79323LP",
+      "ADJUST",
+      "ADJUST2",
+      "AMAZONFEE",
+      "B",
+      "BANK CHARGES",
+      "C2",
+      "D",
+      "DCGS0003",
+      "DCGS0004",
+      "DCGS0037",
+      "DCGS0041",
+      "DCGS0044",
+      "DCGS0058",
+      "DCGS0062",
+      "DCGS0066N",
+      "DCGS0068",
+      "DCGS0069",
+      "DCGS0070",
+      "DCGS0072",
+      "DCGS0075",
+      "DCGS0076",
+      "DCGSSBOY",
+      "DCGSSGIRL",
+      "DOT",
+      "GIFT_0001_10",
+      "GIFT_0001_20",
+      "GIFT_0001_30",
+      "GIFT_0001_40",
+      "GIFT_0001_50",
+      "GIFT_0001_70",
+      "GIFT_0001_80",
+      "M",
+      "PADS",
+      "POST",
+      "S",
+      "SP1002",
+      "TEST001",
+      "TEST002"
+    ],
+    "dropped_exact_duplicate_rows": 33616,
+    "clean_rows": 1002005,
+    "invoice_numbers_with_multiple_timestamps": 81,
+    "clean_invoice_baskets": 39513,
+    "date_min": "2009-12-01T07:45:00",
+    "date_max": "2011-12-09T12:50:00"
+  },
+  "files": {
+    "REAL_DATA_PROTOCOL.md": "193470db404f0246dae663446971aa1d720030fea121e9fbd66615ed2c580395",
+    "real_data_cleaning_log.md": "b0b02d168a833f8d2aa25ccb28e023b208276498c7a25560db102e81d95d5209",
+    "real_data_cases.csv": "427bcd1bf9ca41f8a3f4edef2ae8011c48f32fca2ab2c76698b8a0254db24f66",
+    "real_data_results.csv": "766a1982f4984a2792214cc8b43d2ad71c115be6347738f7313f767151364416",
+    "real_data_diagnostics.csv": "644d8f69d634423d01db5511c3ab9e92717fe254e660b57a4a0be3b6ade5f53e",
+    "real_data_m_vs_b2_summary.csv": "6f347a1c655334c80749ee7451cc23308492dd3ad176b1e94a0f16d9516ca0ac",
+    "real_data_budget_response.png": "7998f63cb6f55980c0a97e47afde6279e7523bee5a270d3149d8dc541362a182",
+    "real_data_validation_report.md": "4f58d9da1fac89bd738b828c223ea8efae3d0dd88b71317c010d5b3f1e8fc904"
+  }
+}

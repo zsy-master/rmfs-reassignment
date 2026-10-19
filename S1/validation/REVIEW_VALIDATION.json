@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "validated_local_date": "2026-10-19",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "scope": "Review-package preparation and targeted computational validation; no new full-100 search claimed",
+  "old_archive_files_preserved": 499,
+  "old_files_changed": [
+    "README.md",
+    "SHA256SUMS.json"
+  ],
+  "all_old_scientific_files_byte_identical": true,
+  "core_revision_sha256": "d1044ad0d77094785074d2c3c6e8960a57e25b96ac3371a9d12f5bbdc273fec8",
+  "new_entry_sha256": "d03b269f042b58b49e536be16c653cade58ae4dbf53c3bedd12d07eb5f897258",
+  "new_paper_export_sha256": "23a06798559f2213b008d4b76b89bf67edf1bf3f1ec8a88bca95fe2469db009e",
+  "current_runs": {
+    "statistics": "PASS: archived 22,500 primary and 45,000 sensitivity rows; 1,680 pooled checks; five tables and three figures",
+    "fresh_smoke": "PASS: seed 2026092401, three new Q4 search units; two Q2 selections; Q4 trace",
+    "smoke_detail_rows": {
+      "primary": 225,
+      "sensitivity": 450
+    },
+    "final_Q2_comparison_reapplied": {
+      "seed_paths_checked": 1
+    },
+    "retail": "PASS: original public workbook re-extracted; all five cases freshly executed; all 375 outcomes compared",
+    "retail_metadata_rows": {
+      "invoice_memberships": 30000,
+      "case_specific_sku_mappings": 150,
+      "projected_orders": 5000
+    }
+  },
+  "wrapper_presentation_note": "Final reviewer-only updates add UTF-8 console encoding, reusable Q2 comparison and revised heatmap presentation. They do not change revision.py or frozen/. Final ZIP extraction and statistics are checked separately after packing.",
+  "historical_full_primary_report": {
+    "path": "frozen/validation/100种子复现.json",
+    "seed_count": 100,
+    "completed_units": 300,
+    "new_search_units": 251,
+    "reused_checkpoint_units": 49,
+    "executed_today": false
+  },
+  "historical_full_Q2_report": {
+    "path": "results/batch_report.json",
+    "executed_today": false,
+    "scope": "100 seeds; 200 new Q2 search units; original revision analysis"
+  },
+  "current_full_primary_rerun": false,
+  "current_full_Q2_rerun": false,
+  "platforms_tested": [
+    "Windows 10, CPython 3.12.14"
+  ],
+  "other_platforms_tested": false,
+  "excluded": [
+    "virtual environments",
+    "IDE settings",
+    "bytecode caches",
+    "raw retail workbook",
+    "private submission screenshots"
+  ],
+  "submission_status": "Local preparation only; upload and receipt require author action"
+}

@@ -1,0 +1,24 @@
+{
+  "protocol_version": "2026-09-23-v1",
+  "n_skus": 30,
+  "n_pods": 10,
+  "pod_capacity": 3,
+  "batch_capacity": 4,
+  "budgets": [1, 3, 5],
+  "initial_orders": 400,
+  "decision_orders": 200,
+  "test_orders": 400,
+  "lambdas": [0, 0.25, 0.5, 1, 2],
+  "tie_breaker": "lexicographic_sku_pair",
+  "strict_positive_improvement": true,
+  "test_data_available_to_selection": false,
+  "initial_layout_rule": "initial-window Jaccard greedy packing",
+  "order_length_probabilities": {
+    "2": 0.45,
+    "3": 0.40,
+    "4": 0.15
+  },
+  "within_community_probability": 0.8,
+  "drift_ratios": [0.15, 0.30, 0.45],
+  "scenarios": ["no_drift", "abrupt", "gradual"]
+}

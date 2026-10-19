@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "frozen_files": {
+    "rmfs_core.py": {
+      "byte_identical": true,
+      "sha256": "ec5cfb3ea04db5c0cffdc894d7fb79f0a31c1487c977bf65b75e56c93cd1d5b7"
+    },
+    "synthetic_data.py": {
+      "byte_identical": true,
+      "sha256": "3eba72ff930a24bb1c92f70f955236da9fe209a9abd5d83912bc7510d2a5e9cf"
+    },
+    "protocol_config.json": {
+      "byte_identical": true,
+      "sha256": "2a90bbe7958855c37df27eea6e368ad520d62d3dd2076ab8dde81b25329cdee2"
+    },
+    "run_real_data_validation.py": {
+      "byte_identical": true,
+      "sha256": "1c72f24593ee69c487959263934aa869c5da7432a64034813c0045410264eaa3"
+    },
+    "benchmark_runtime.py": {
+      "byte_identical": true,
+      "sha256": "56510c1df1df4cd817cb5f28789a2aa734a6601eef42ab610879e11c8aac8b40"
+    }
+  },
+  "instance_AST_functions": [
+    "ExperimentInstance",
+    "load_config",
+    "derived_seed",
+    "_orders_payload",
+    "fingerprint",
+    "build_instances_for_seed"
+  ],
+  "asset_checks": {
+    "reference/ASSET_HASHES.json": 317,
+    "CODE_HASHES.json": 8
+  },
+  "main_report": {
+    "status": "PASS",
+    "mode": "fresh",
+    "seed_count": 100,
+    "main_rows": 22500,
+    "sensitivity_rows": 45000,
+    "reference_comparisons": {
+      "formal_detail_100seeds.csv": 22500,
+      "sensitivity_detail_100seeds.csv": 45000,
+      "strategy_summary_100seeds.csv": 225,
+      "paired_comparisons_100seeds.csv": 360,
+      "budget_effects_100seeds.csv": 60,
+      "sensitivity_strategy_summary_100seeds.csv": 450,
+      "sensitivity_paired_comparisons_100seeds.csv": 720,
+      "sensitivity_budget_effects_100seeds.csv": 120,
+      "sensitivity_intensity_effects_100seeds.csv": 180,
+      "sensitivity_gap_effects_100seeds.csv": 120
+    },
+    "checkpoint_units": 300,
+    "new_search_units": 251,
+    "reused_checkpoint_units": 49,
+    "CI_recomputed": true,
+    "runtime_match_required": false,
+    "figures_generated": true
+  },
+  "runtime_report": {
+    "status": "PASS",
+    "scope": "all",
+    "seeds": [
+      2026092401,
+      2026092402,
+      2026092403
+    ],
+    "started_local": "2026-10-04T19:01:05.820310",
+    "execution": "serial standalone calls",
+    "runtime_match_required": false,
+    "observations": 36,
+    "finished_local": "2026-10-04T19:03:38.587402",
+    "scientific_records_match_reference": 36
+  },
+  "figure_hashes_match_independent_recalculation": {
+    "figure_budget_response_100seeds.png": "4ba1d537b65fdc59cec5874832980854344223290982a21346caa9e4ec5339f9",
+    "figure_M_vs_B2_100seeds.png": "32d92601f4b8aa92543502883691d5baa2aa0a7e447d920fb5d6cfed91ebfa24",
+    "figure_main_budget_response_100seeds.png": "ffd33b19a264f69cc35dc55df1f9fa54ea9203212387e23f505f46ef825fcf7c",
+    "figure_main_M_vs_B2_100seeds.png": "f140e0731467e3337cd9a0af201fc987ff11961b837f9129dfa501050050958b"
+  },
+  "real_data_fresh": "NOT_RUN_missing_workbook"
+}

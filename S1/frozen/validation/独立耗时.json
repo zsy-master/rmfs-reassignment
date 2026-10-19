@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "all",
+  "seeds": [
+    2026092401,
+    2026092402,
+    2026092403
+  ],
+  "started_local": "2026-10-04T19:01:05.820310",
+  "execution": "serial standalone calls",
+  "runtime_match_required": false,
+  "observations": 36,
+  "finished_local": "2026-10-04T19:03:38.587402",
+  "scientific_records_match_reference": 36
+}

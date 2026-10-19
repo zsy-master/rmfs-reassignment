@@ -1,0 +1,422 @@
+{
+  "seed": 2026092461,
+  "Q": 2,
+  "lambda": 1.0,
+  "paths": {
+    "abrupt": {
+      "M_pairs": [
+        [
+          4,
+          15
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          24
+        ]
+      ],
+      "M_decision_records": [
+        {
+          "step": 1,
+          "sku_pair": [
+            4,
+            15
+          ],
+          "value_before": 240.0,
+          "value_after": 224.0,
+          "marginal_gain": 32.0,
+          "score": 30.0
+        },
+        {
+          "step": 2,
+          "sku_pair": [
+            1,
+            10
+          ],
+          "value_before": 224.0,
+          "value_after": 213.0,
+          "marginal_gain": 22.0,
+          "score": 20.0
+        },
+        {
+          "step": 3,
+          "sku_pair": [
+            14,
+            21
+          ],
+          "value_before": 213.0,
+          "value_after": 203.0,
+          "marginal_gain": 20.0,
+          "score": 18.0
+        },
+        {
+          "step": 4,
+          "sku_pair": [
+            6,
+            8
+          ],
+          "value_before": 203.0,
+          "value_after": 196.0,
+          "marginal_gain": 14.0,
+          "score": 12.0
+        },
+        {
+          "step": 5,
+          "sku_pair": [
+            6,
+            24
+          ],
+          "value_before": 196.0,
+          "value_after": 192.0,
+          "marginal_gain": 8.0,
+          "score": 6.0
+        }
+      ],
+      "seconds": 14.796728400018765,
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    "gradual": {
+      "M_pairs": [
+        [
+          6,
+          21
+        ]
+      ],
+      "M_decision_records": [
+        {
+          "step": 1,
+          "sku_pair": [
+            6,
+            21
+          ],
+          "value_before": 231.0,
+          "value_after": 219.0,
+          "marginal_gain": 24.0,
+          "score": 22.0
+        }
+      ],
+      "seconds": 6.099338700005319,
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    }
+  },
+  "rows": [
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 503,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 503.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,6],[7,8,9],[19,20,21],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 474,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 476.0,
+      "final_layout": "[[2,3,10],[1,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,6],[7,8,9],[19,20,21],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[[1,10]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 466,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 468.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[5,6,15],[7,8,9],[19,20,21],[4,13,14],[16,17,18]]",
+      "swap_sequence": "[[4,15]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 503,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 503.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,6],[7,8,9],[19,20,21],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 409,
+      "n_swaps": 3,
+      "movement": 6,
+      "movement_charge": 6.0,
+      "total_cost": 415.0,
+      "final_layout": "[[2,3,10],[1,11,12],[22,23,24],[25,26,27],[28,29,30],[4,13,21],[7,8,9],[6,19,20],[5,14,15],[16,17,18]]",
+      "swap_sequence": "[[1,10],[6,21],[5,13]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 422,
+      "n_swaps": 3,
+      "movement": 6,
+      "movement_charge": 6.0,
+      "total_cost": 428.0,
+      "final_layout": "[[2,3,10],[1,11,12],[22,23,24],[25,26,27],[28,29,30],[5,6,15],[7,8,9],[14,19,20],[4,13,21],[16,17,18]]",
+      "swap_sequence": "[[4,15],[1,10],[14,21]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 503,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 503.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,6],[7,8,9],[19,20,21],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 360,
+      "n_swaps": 5,
+      "movement": 10,
+      "movement_charge": 10.0,
+      "total_cost": 370.0,
+      "final_layout": "[[2,3,10],[1,11,12],[14,22,23],[25,26,27],[28,29,30],[4,13,21],[7,9,24],[6,19,20],[5,8,15],[16,17,18]]",
+      "swap_sequence": "[[1,10],[6,21],[5,13],[8,14],[14,24]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 389,
+      "n_swaps": 5,
+      "movement": 10,
+      "movement_charge": 10.0,
+      "total_cost": 399.0,
+      "final_layout": "[[2,3,10],[1,11,12],[6,22,23],[25,26,27],[28,29,30],[5,8,15],[7,9,24],[14,19,20],[4,13,21],[16,17,18]]",
+      "swap_sequence": "[[4,15],[1,10],[14,21],[6,8],[6,24]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "60d51b4f48c05b748cfc85e09c6a8023c0eb41ed9e8c51438bf70d08d61c3c8b"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 507,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 507.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,6],[7,8,9],[19,20,21],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 474,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 476.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,21],[7,8,9],[6,19,20],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[[6,21]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 474,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 476.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,21],[7,8,9],[6,19,20],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[[6,21]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 507,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 507.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,6],[7,8,9],[19,20,21],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 474,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 476.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,21],[7,8,9],[6,19,20],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[[6,21]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 474,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 476.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,21],[7,8,9],[6,19,20],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[[6,21]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 507,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 507.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,6],[7,8,9],[19,20,21],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 474,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 476.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,21],[7,8,9],[6,19,20],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[[6,21]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    },
+    {
+      "seed": 2026092461,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 474,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 476.0,
+      "final_layout": "[[1,2,3],[10,11,12],[22,23,24],[25,26,27],[28,29,30],[4,5,21],[7,8,9],[6,19,20],[13,14,15],[16,17,18]]",
+      "swap_sequence": "[[6,21]]",
+      "initial_fingerprint": "ef4b1f1001aff8b12a098523788e64fe6ea130cd53cdab22c315e4d0f69751ca",
+      "instance_fingerprint": "07ae23ef4e8b90aa484666ac2c096fcea4c1cdc7503f094f8f8982c7f7d3ed51"
+    }
+  ],
+  "protocol_sha256": "c2c2f2cd4c28ee0971bad10ce9003b8bfacda42a7a3b2930f08842f645523b65"
+}

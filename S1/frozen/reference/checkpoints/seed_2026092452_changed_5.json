@@ -1,0 +1,181 @@
+{
+  "seed": 2026092452,
+  "changed_skus": 5,
+  "scenarios": {
+    "abrupt": {
+      "target_drift_ratio": 0.16666666666666666,
+      "realized_drift_ratio": 0.16666666666666666,
+      "initial_fingerprint": "5ae38deb30a0deaaca68d6dd5f36007b6a4db1ffd6a4c4e4997736144764ba20",
+      "instance_fingerprint": "16aa07ab8d00a241c1157dbba6e33e52bc6c3f095c016f8d515ecfabeda6b375",
+      "B1": {
+        "pairs": [
+          [
+            11,
+            13
+          ],
+          [
+            13,
+            29
+          ],
+          [
+            15,
+            21
+          ],
+          [
+            12,
+            15
+          ],
+          [
+            20,
+            22
+          ]
+        ],
+        "runtime_seconds": 0.04825989995151758
+      },
+      "B2": {
+        "pairs": [
+          [
+            1,
+            14
+          ],
+          [
+            16,
+            21
+          ],
+          [
+            16,
+            25
+          ]
+        ],
+        "runtime_seconds": 0.06493850005790591
+      },
+      "B3": {
+        "records": [
+          {
+            "step": 1,
+            "sku_pair": [
+              1,
+              14
+            ],
+            "value_before": 135.0,
+            "value_after": 129.0,
+            "marginal_gain": 12.0,
+            "score_at_lambda_0": 12.0
+          },
+          {
+            "step": 2,
+            "sku_pair": [
+              16,
+              21
+            ],
+            "value_before": 129.0,
+            "value_after": 124.0,
+            "marginal_gain": 10.0,
+            "score_at_lambda_0": 10.0
+          },
+          {
+            "step": 3,
+            "sku_pair": [
+              16,
+              25
+            ],
+            "value_before": 124.0,
+            "value_after": 120.0,
+            "marginal_gain": 8.0,
+            "score_at_lambda_0": 8.0
+          },
+          {
+            "step": 4,
+            "sku_pair": [
+              3,
+              4
+            ],
+            "value_before": 120.0,
+            "value_after": 119.0,
+            "marginal_gain": 2.0,
+            "score_at_lambda_0": 2.0
+          }
+        ],
+        "runtime_seconds": 21.402140599908307
+      }
+    },
+    "gradual": {
+      "target_drift_ratio": 0.16666666666666666,
+      "realized_drift_ratio": 0.16666666666666666,
+      "initial_fingerprint": "5ae38deb30a0deaaca68d6dd5f36007b6a4db1ffd6a4c4e4997736144764ba20",
+      "instance_fingerprint": "99d090775e778995bd7c8f6a1375785949ee74f114eb97651ca85f332379e61d",
+      "B1": {
+        "pairs": [
+          [
+            1,
+            22
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            15,
+            26
+          ],
+          [
+            10,
+            29
+          ],
+          [
+            13,
+            19
+          ]
+        ],
+        "runtime_seconds": 0.05700670008081943
+      },
+      "B2": {
+        "pairs": [
+          [
+            1,
+            14
+          ]
+        ],
+        "runtime_seconds": 0.043305299943313
+      },
+      "B3": {
+        "records": [
+          {
+            "step": 1,
+            "sku_pair": [
+              1,
+              14
+            ],
+            "value_before": 135.0,
+            "value_after": 129.0,
+            "marginal_gain": 12.0,
+            "score_at_lambda_0": 12.0
+          },
+          {
+            "step": 2,
+            "sku_pair": [
+              16,
+              25
+            ],
+            "value_before": 129.0,
+            "value_after": 127.0,
+            "marginal_gain": 4.0,
+            "score_at_lambda_0": 4.0
+          },
+          {
+            "step": 3,
+            "sku_pair": [
+              21,
+              25
+            ],
+            "value_before": 127.0,
+            "value_after": 122.0,
+            "marginal_gain": 10.0,
+            "score_at_lambda_0": 10.0
+          }
+        ],
+        "runtime_seconds": 18.647693900042213
+      }
+    }
+  }
+}

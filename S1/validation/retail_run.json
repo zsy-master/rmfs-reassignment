@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "mode": "retail",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "workers": 4,
+  "package_files_checked": 509,
+  "steps": [
+    {
+      "script": "revision.py",
+      "arguments": [
+        "preflight"
+      ],
+      "completed": true
+    },
+    {
+      "script": "revision.py",
+      "arguments": [
+        "cases",
+        "--raw",
+        "LOCAL_PATH/online_retail_II.xlsx",
+        "--output",
+        "LOCAL_PATH/metadata"
+      ],
+      "completed": true
+    },
+    {
+      "script": "frozen/optional/real_data.py",
+      "arguments": [
+        "--raw",
+        "LOCAL_PATH/online_retail_II.xlsx",
+        "--output",
+        "LOCAL_PATH/cases"
+      ],
+      "completed": true
+    }
+  ],
+  "elapsed_seconds": 241.6506073999917
+}

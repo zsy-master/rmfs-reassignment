@@ -1,0 +1,23 @@
+test_b2_tie_break_at_most_k_and_early_stop (test_protocol.ProtocolLockTests.test_b2_tie_break_at_most_k_and_early_stop) ... ok
+test_budget_is_a_maximum (test_protocol.ProtocolLockTests.test_budget_is_a_maximum) ... ok
+test_capacity_and_unique_assignment_are_preserved (test_protocol.ProtocolLockTests.test_capacity_and_unique_assignment_are_preserved) ... ok
+test_hand_example_pod_visits (test_protocol.ProtocolLockTests.test_hand_example_pod_visits) ... ok
+test_main_method_tie_break_and_lambda (test_protocol.ProtocolLockTests.test_main_method_tie_break_and_lambda) ... ok
+test_test_data_is_absent_from_selection_interfaces (test_protocol.ProtocolLockTests.test_test_data_is_absent_from_selection_interfaces) ... ok
+test_cached_expansion_matches_archived_scientific_rows (test_reproduction.ReproductionTests.test_cached_expansion_matches_archived_scientific_rows) ... ok
+test_corrupted_resume_checkpoint_is_rejected (test_reproduction.ReproductionTests.test_corrupted_resume_checkpoint_is_rejected) ... ok
+test_duplicate_records_are_rejected (test_reproduction.ReproductionTests.test_duplicate_records_are_rejected) ... ok
+test_evaluator_against_independent_oracle (test_reproduction.ReproductionTests.test_evaluator_against_independent_oracle) ... ok
+test_lambda_and_budget_prefix_equal_direct_search (test_reproduction.ReproductionTests.test_lambda_and_budget_prefix_equal_direct_search) ... ok
+test_missing_values_are_rejected_before_statistics (test_reproduction.ReproductionTests.test_missing_values_are_rejected_before_statistics) ... ok
+test_protected_reference_output_is_rejected (test_reproduction.ReproductionTests.test_protected_reference_output_is_rejected) ... ok
+test_selection_functions_do_not_accept_test_orders (test_reproduction.ReproductionTests.test_selection_functions_do_not_accept_test_orders) ... ok
+test_drift_preserves_community_sizes_and_is_reproducible (test_synthetic_data.SyntheticDataTests.test_drift_preserves_community_sizes_and_is_reproducible) ... ok
+test_gradual_orders_have_unique_ids_and_valid_lengths (test_synthetic_data.SyntheticDataTests.test_gradual_orders_have_unique_ids_and_valid_lengths) ... ok
+test_initial_layout_uses_every_sku_once (test_synthetic_data.SyntheticDataTests.test_initial_layout_uses_every_sku_once) ... ok
+test_windows_are_reproducible_from_their_own_seed (test_synthetic_data.SyntheticDataTests.test_windows_are_reproducible_from_their_own_seed) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 2.428s
+
+OK

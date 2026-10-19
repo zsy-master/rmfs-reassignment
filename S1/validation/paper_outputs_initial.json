@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "mode": "statistics from archived outcomes",
+  "table_count": 5,
+  "figure_count": 3,
+  "Q2_budget_contrasts_independently_recomputed": 8,
+  "Figure2_means_intervals_masks_checked": 90,
+  "retail_pairs_checked": 75,
+  "fresh_selection_experiments": 0,
+  "table3_source": "archived trace, selection frozen before posthoc test evaluation",
+  "figures": "numerically reproduced; font/layout may differ from manuscript presentation copies"
+}

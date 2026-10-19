@@ -1,0 +1,3 @@
+﻿step,pair,decision_delta_pv,predicted_gross_saving,movement_charge,predicted_net_saving,action,realized_gross_saving,realized_net_saving,test_pv_after
+1,"[23, 26]",10.0,20.0,2.0,18.0,accept,7.0,5.0,279
+2,"[10, 22]",1.0,2.0,2.0,0.0,stop_score,,,279

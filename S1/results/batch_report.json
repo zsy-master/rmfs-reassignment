@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "frozen_files": 1347,
+  "tcrit": {
+    "30": 2.0452296421327265,
+    "70": 1.9949454151072539,
+    "100": 1.9842169515086827
+  },
+  "protocol_sha256": "c2c2f2cd4c28ee0971bad10ce9003b8bfacda42a7a3b2930f08842f645523b65",
+  "supplement_source_sha256": "f10e72149ceaee8f4a46496406948ec511b39c397cc6bf4fd52f5a1742d8d043",
+  "new_search_units": 200,
+  "total_rows": 3600,
+  "Q2_rows": 1800,
+  "Q4_rows_reused": 1800,
+  "seeds": 100,
+  "main_protocol_unchanged": true,
+  "selection_interfaces_exclude_test": true
+}

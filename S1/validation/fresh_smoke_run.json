@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "mode": "smoke",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "workers": 1,
+  "package_files_checked": 509,
+  "steps": [
+    {
+      "script": "revision.py",
+      "arguments": [
+        "preflight"
+      ],
+      "completed": true
+    },
+    {
+      "script": "frozen/reproduce.py",
+      "arguments": [
+        "fresh",
+        "--scope",
+        "one",
+        "--seed",
+        "2026092401",
+        "--workers",
+        "1",
+        "--output",
+        "LOCAL_PATH/primary"
+      ],
+      "completed": true
+    },
+    {
+      "script": "revision.py",
+      "arguments": [
+        "batch",
+        "--pilot",
+        "--workers",
+        "1",
+        "--output",
+        "LOCAL_PATH/q2"
+      ],
+      "completed": true
+    },
+    {
+      "script": "revision.py",
+      "arguments": [
+        "trace",
+        "--output",
+        "LOCAL_PATH/trace"
+      ],
+      "completed": true
+    }
+  ],
+  "fresh_Q2_first_seed_matches_archive": true,
+  "elapsed_seconds": 134.72673390002456
+}

@@ -1,0 +1,10 @@
+{
+  "analysis.py": "ccd256675e0861cf863670c6d728f5999e833ee8ffb5688ace287640d4308fe3",
+  "experiment.py": "ee2e4caf89b935e300ccbbcca40d80b751f5de6f078c68bd07968922de3362a1",
+  "figures.py": "b59fbbb100a4580bf1ef750188f727e3b11a32cc25362cc6e06dbbae370ff108",
+  "instances.py": "ad984a051ce0a7b318cd9f3944f817935d87474ea7aa1b5bf51eedb83386bb43",
+  "io_utils.py": "4a47cb02722a6801fa2e8ca0c8993c52b3db150fd75bb55706b64cdb5c13e9f0",
+  "reproduce.py": "7ea903902e5a10cc1d905b105638912260169ac7b61538a83d57cd94b14b00ae",
+  "rmfs_core.py": "ec5cfb3ea04db5c0cffdc894d7fb79f0a31c1487c977bf65b75e56c93cd1d5b7",
+  "synthetic_data.py": "3eba72ff930a24bb1c92f70f955236da9fe209a9abd5d83912bc7510d2a5e9cf"
+}

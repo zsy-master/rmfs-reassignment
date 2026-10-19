@@ -1,0 +1,452 @@
+{
+  "seed": 2026092413,
+  "Q": 2,
+  "lambda": 1.0,
+  "paths": {
+    "abrupt": {
+      "M_pairs": [
+        [
+          7,
+          19
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          14,
+          27
+        ],
+        [
+          5,
+          27
+        ]
+      ],
+      "M_decision_records": [
+        {
+          "step": 1,
+          "sku_pair": [
+            7,
+            19
+          ],
+          "value_before": 262.0,
+          "value_after": 240.0,
+          "marginal_gain": 44.0,
+          "score": 42.0
+        },
+        {
+          "step": 2,
+          "sku_pair": [
+            18,
+            21
+          ],
+          "value_before": 240.0,
+          "value_after": 225.0,
+          "marginal_gain": 30.0,
+          "score": 28.0
+        },
+        {
+          "step": 3,
+          "sku_pair": [
+            12,
+            25
+          ],
+          "value_before": 225.0,
+          "value_after": 211.0,
+          "marginal_gain": 28.0,
+          "score": 26.0
+        },
+        {
+          "step": 4,
+          "sku_pair": [
+            14,
+            27
+          ],
+          "value_before": 211.0,
+          "value_after": 202.0,
+          "marginal_gain": 18.0,
+          "score": 16.0
+        },
+        {
+          "step": 5,
+          "sku_pair": [
+            5,
+            27
+          ],
+          "value_before": 202.0,
+          "value_after": 183.0,
+          "marginal_gain": 38.0,
+          "score": 36.0
+        }
+      ],
+      "seconds": 16.29492100002244,
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    "gradual": {
+      "M_pairs": [
+        [
+          18,
+          21
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          12,
+          25
+        ]
+      ],
+      "M_decision_records": [
+        {
+          "step": 1,
+          "sku_pair": [
+            18,
+            21
+          ],
+          "value_before": 226.0,
+          "value_after": 217.0,
+          "marginal_gain": 18.0,
+          "score": 16.0
+        },
+        {
+          "step": 2,
+          "sku_pair": [
+            7,
+            19
+          ],
+          "value_before": 217.0,
+          "value_after": 214.0,
+          "marginal_gain": 6.0,
+          "score": 4.0
+        },
+        {
+          "step": 3,
+          "sku_pair": [
+            12,
+            25
+          ],
+          "value_before": 214.0,
+          "value_after": 212.0,
+          "marginal_gain": 4.0,
+          "score": 2.0
+        }
+      ],
+      "seconds": 13.130292899993947,
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    }
+  },
+  "rows": [
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 472,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 472.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[19,20,21],[28,29,30],[16,17,18],[7,8,9]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 445,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 447.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[7,20,21],[28,29,30],[16,17,18],[8,9,19]]",
+      "swap_sequence": "[[7,19]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 445,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 447.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[7,20,21],[28,29,30],[16,17,18],[8,9,19]]",
+      "swap_sequence": "[[7,19]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 472,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 472.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[19,20,21],[28,29,30],[16,17,18],[7,8,9]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 390,
+      "n_swaps": 3,
+      "movement": 6,
+      "movement_charge": 6.0,
+      "total_cost": 396.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[12,26,27],[22,23,24],[10,11,25],[7,18,20],[28,29,30],[16,17,21],[8,9,19]]",
+      "swap_sequence": "[[7,19],[18,21],[12,25]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 390,
+      "n_swaps": 3,
+      "movement": 6,
+      "movement_charge": 6.0,
+      "total_cost": 396.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[12,26,27],[22,23,24],[10,11,25],[7,18,20],[28,29,30],[16,17,21],[8,9,19]]",
+      "swap_sequence": "[[7,19],[18,21],[12,25]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 472,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 472.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[19,20,21],[28,29,30],[16,17,18],[7,8,9]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 350,
+      "n_swaps": 5,
+      "movement": 10,
+      "movement_charge": 10.0,
+      "total_cost": 360.0,
+      "final_layout": "[[1,2,3],[4,6,27],[5,13,15],[12,14,26],[22,23,24],[10,11,25],[7,18,20],[28,29,30],[16,17,21],[8,9,19]]",
+      "swap_sequence": "[[7,19],[18,21],[12,25],[5,27],[5,14]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "abrupt",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 350,
+      "n_swaps": 5,
+      "movement": 10,
+      "movement_charge": 10.0,
+      "total_cost": 360.0,
+      "final_layout": "[[1,2,3],[4,6,27],[5,13,15],[12,14,26],[22,23,24],[10,11,25],[7,18,20],[28,29,30],[16,17,21],[8,9,19]]",
+      "swap_sequence": "[[7,19],[18,21],[12,25],[14,27],[5,27]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "cd899da69685787183b65db9fe23acfb2e715bf1af4092c0924e6459fd22659b"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 517,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 517.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[19,20,21],[28,29,30],[16,17,18],[7,8,9]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 477,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 479.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[18,19,20],[28,29,30],[16,17,21],[7,8,9]]",
+      "swap_sequence": "[[18,21]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 1,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 477,
+      "n_swaps": 1,
+      "movement": 2,
+      "movement_charge": 2.0,
+      "total_cost": 479.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[18,19,20],[28,29,30],[16,17,21],[7,8,9]]",
+      "swap_sequence": "[[18,21]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 517,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 517.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[19,20,21],[28,29,30],[16,17,18],[7,8,9]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 440,
+      "n_swaps": 2,
+      "movement": 4,
+      "movement_charge": 4.0,
+      "total_cost": 444.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[7,18,20],[28,29,30],[16,17,21],[8,9,19]]",
+      "swap_sequence": "[[18,21],[7,19]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 3,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 416,
+      "n_swaps": 3,
+      "movement": 6,
+      "movement_charge": 6.0,
+      "total_cost": 422.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[12,26,27],[22,23,24],[10,11,25],[7,18,20],[28,29,30],[16,17,21],[8,9,19]]",
+      "swap_sequence": "[[18,21],[7,19],[12,25]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "B0",
+      "pv_test": 517,
+      "n_swaps": 0,
+      "movement": 0,
+      "movement_charge": 0.0,
+      "total_cost": 517.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[19,20,21],[28,29,30],[16,17,18],[7,8,9]]",
+      "swap_sequence": "[]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "B2",
+      "pv_test": 440,
+      "n_swaps": 2,
+      "movement": 4,
+      "movement_charge": 4.0,
+      "total_cost": 444.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[25,26,27],[22,23,24],[10,11,12],[7,18,20],[28,29,30],[16,17,21],[8,9,19]]",
+      "swap_sequence": "[[18,21],[7,19]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    },
+    {
+      "seed": 2026092413,
+      "scenario": "gradual",
+      "Q": 2,
+      "K": 5,
+      "lambda_cost": 1.0,
+      "strategy": "M",
+      "pv_test": 416,
+      "n_swaps": 3,
+      "movement": 6,
+      "movement_charge": 6.0,
+      "total_cost": 422.0,
+      "final_layout": "[[1,2,3],[4,5,6],[13,14,15],[12,26,27],[22,23,24],[10,11,25],[7,18,20],[28,29,30],[16,17,21],[8,9,19]]",
+      "swap_sequence": "[[18,21],[7,19],[12,25]]",
+      "initial_fingerprint": "7bc3d27e5f96510a2e2c633e6a2150a039c5e6cbac3127b478703921d5629cbd",
+      "instance_fingerprint": "07f59cc938996297d94a378989193c66a6eb80629a85f12acef7dfb88e46d5c8"
+    }
+  ],
+  "protocol_sha256": "c2c2f2cd4c28ee0971bad10ce9003b8bfacda42a7a3b2930f08842f645523b65"
+}

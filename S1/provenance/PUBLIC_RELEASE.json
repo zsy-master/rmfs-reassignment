@@ -1,0 +1,96 @@
+{
+  "artifact_version": "1.0.0",
+  "release_date": "2026-10-20",
+  "user_authorized_public_distribution": true,
+  "method_version": "frozen v1",
+  "scientific_files_byte_identical": 485,
+  "all_scientific_sources_results_protocol_seeds_and_metadata_unchanged": true,
+  "historical_report_local_path_redactions": [
+    {
+      "file": "validation/FINAL_SMOKE.json",
+      "original_sha256": "7c1cfc58b5aabc55e02cec51f7b5ade10bc73671b8073a51bc8f04bd45aea41d",
+      "public_sha256": "22456d73cb508b68a00d3b7b0023218dcf85bbc21252d48754d89a183f2d0978",
+      "fields": [
+        "/steps/1/arguments/8",
+        "/steps/2/arguments/5",
+        "/steps/3/arguments/2"
+      ]
+    },
+    {
+      "file": "validation/FINAL_STATISTICS.json",
+      "original_sha256": "8c019ea32b26940a082a37e380ea18a917df072e03cdc50570ef66227155910a",
+      "public_sha256": "d4a5a31f83186a50c8b827feee1f742e04e80108668cfc71f14c07d5894b447b",
+      "fields": [
+        "/steps/1/arguments/5",
+        "/steps/2/arguments/2",
+        "/steps/3/arguments/1",
+        "/steps/3/arguments/3",
+        "/steps/3/arguments/5"
+      ]
+    },
+    {
+      "file": "validation/fresh_smoke_run.json",
+      "original_sha256": "086ad2cad03ea00882da9b91870501815097199927977e7c9d2c61586320e901",
+      "public_sha256": "7a55763d8cdd1f24958d880de67edabd700cbe7a2f8fdc0d1e9a6fff288e89c9",
+      "fields": [
+        "/steps/1/arguments/8",
+        "/steps/2/arguments/5",
+        "/steps/3/arguments/2"
+      ]
+    },
+    {
+      "file": "validation/retail_run.json",
+      "original_sha256": "15a873d39d250920effe50f01d75af9206ca12eed7e34d3e73b15671d95fde78",
+      "public_sha256": "518b85cec151d4a620f7e3e6e48cf2d5396e8943fa41473cf5a6dfb09ade3d6f",
+      "fields": [
+        "/steps/1/arguments/2",
+        "/steps/1/arguments/4",
+        "/steps/2/arguments/1",
+        "/steps/2/arguments/3"
+      ]
+    },
+    {
+      "file": "validation/SLIM_SMOKE.json",
+      "original_sha256": "18222e1e0ae21121aec2c354fe8980c29df1fe8c3e414aa7ad7fead577c0dd68",
+      "public_sha256": "b5e12d46cbd0f9c8f783744aedfbb1bda8a3f24ae92c198fa30e267921b0497e",
+      "fields": [
+        "/steps/1/arguments/8",
+        "/steps/2/arguments/5",
+        "/steps/3/arguments/2"
+      ]
+    },
+    {
+      "file": "validation/SLIM_STATISTICS.json",
+      "original_sha256": "28db735375bec92f3709c7ee7fa9e7d3dfd6b37b72ce82cf6fe4158a28fbcb6a",
+      "public_sha256": "13658afa9dfd77a68326be066801d5985ce8de29fd0b686fc2be6629d4964517",
+      "fields": [
+        "/steps/1/arguments/5",
+        "/steps/2/arguments/2",
+        "/steps/3/arguments/1",
+        "/steps/3/arguments/3",
+        "/steps/3/arguments/5"
+      ]
+    },
+    {
+      "file": "validation/statistics_run.json",
+      "original_sha256": "c00251f97367a1a6cf1a66234f453e423d93b5acd57303f62faca39a19ae47c9",
+      "public_sha256": "0fac1835f82b735e93e350e0c953bc94b80fb65607b47a38dff5979ff3ee4f44",
+      "fields": [
+        "/steps/1/arguments/5",
+        "/steps/2/arguments/2",
+        "/steps/3/arguments/1",
+        "/steps/3/arguments/3",
+        "/steps/3/arguments/5"
+      ]
+    }
+  ],
+  "documentation_updates": [
+    "README public context and package version",
+    "CITATION package version/date",
+    "RIGHTS public distribution without assigning a new software licence"
+  ],
+  "sensitive_credentials_or_personal_contact_values_found": false,
+  "raw_retail_workbook_or_manuscript_embedded": false,
+  "phone_pattern_review": "All long-number pattern matches in JSON/CSV belong to 64-character hexadecimal hashes, not telephone fields",
+  "validation_reports_retain_scopes_and_scientific_status": true
+}

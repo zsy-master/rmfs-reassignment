@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "unpacked_double_click_check_cmd": "PASS",
+  "unpacked_optional_imports": "PASS",
+  "windows_batch_newlines": "CRLF",
+  "package_hash_entries_tested": 361
+}

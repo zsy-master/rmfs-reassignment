@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "frozen_files_checked": 369,
+  "optional_local_files_omitted": 978,
+  "tcrit": {
+    "30": 2.0452296421327265,
+    "70": 1.9949454151072539,
+    "100": 1.9842169515086827
+  },
+  "protocol_sha256": "c2c2f2cd4c28ee0971bad10ce9003b8bfacda42a7a3b2930f08842f645523b65",
+  "supplement_source_sha256": "d1044ad0d77094785074d2c3c6e8960a57e25b96ac3371a9d12f5bbdc273fec8",
+  "pooled_numeric_checks": 1680,
+  "max_difference": 1.4210854715202004e-14,
+  "weighted_mean_error": 2.1316282072803006e-14,
+  "cohort_contrasts": 1260,
+  "cohort_summary_rows": 675,
+  "new_simulations": 0
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "seed": 2026092401,
+  "scenarios": [
+    "abrupt",
+    "gradual"
+  ],
+  "new_searches": 2,
+  "seconds": {
+    "abrupt": 11.31999829999404,
+    "gradual": 6.823913000000175
+  }
+}

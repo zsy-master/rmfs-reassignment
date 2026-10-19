@@ -1,0 +1,167 @@
+{
+  "seed": 2026092483,
+  "changed_skus": 5,
+  "scenarios": {
+    "abrupt": {
+      "target_drift_ratio": 0.16666666666666666,
+      "realized_drift_ratio": 0.16666666666666666,
+      "initial_fingerprint": "b924895cdb3c355877996613cdc6eb9503e4d6cb74bdd962e02893de8426e7ff",
+      "instance_fingerprint": "92e3fca81933816f70458e46cdfcecbdc15dcfcf29f1b82e452d8b8b02535eba",
+      "B1": {
+        "pairs": [
+          [
+            6,
+            13
+          ],
+          [
+            5,
+            19
+          ],
+          [
+            3,
+            22
+          ],
+          [
+            12,
+            18
+          ],
+          [
+            12,
+            24
+          ]
+        ],
+        "runtime_seconds": 0.06293280003592372
+      },
+      "B2": {
+        "pairs": [
+          [
+            3,
+            10
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            7,
+            26
+          ]
+        ],
+        "runtime_seconds": 0.09133770002517849
+      },
+      "B3": {
+        "records": [
+          {
+            "step": 1,
+            "sku_pair": [
+              3,
+              10
+            ],
+            "value_before": 139.0,
+            "value_after": 127.0,
+            "marginal_gain": 24.0,
+            "score_at_lambda_0": 24.0
+          },
+          {
+            "step": 2,
+            "sku_pair": [
+              18,
+              26
+            ],
+            "value_before": 127.0,
+            "value_after": 121.0,
+            "marginal_gain": 12.0,
+            "score_at_lambda_0": 12.0
+          },
+          {
+            "step": 3,
+            "sku_pair": [
+              7,
+              26
+            ],
+            "value_before": 121.0,
+            "value_after": 115.0,
+            "marginal_gain": 12.0,
+            "score_at_lambda_0": 12.0
+          }
+        ],
+        "runtime_seconds": 16.88887430005707
+      }
+    },
+    "gradual": {
+      "target_drift_ratio": 0.16666666666666666,
+      "realized_drift_ratio": 0.16666666666666666,
+      "initial_fingerprint": "b924895cdb3c355877996613cdc6eb9503e4d6cb74bdd962e02893de8426e7ff",
+      "instance_fingerprint": "0c6e6e3d2b630d47ce488b15d5842591c53a24ccef62461c6d19d43b73235a1e",
+      "B1": {
+        "pairs": [
+          [
+            3,
+            16
+          ],
+          [
+            15,
+            28
+          ],
+          [
+            18,
+            28
+          ],
+          [
+            10,
+            26
+          ],
+          [
+            28,
+            30
+          ]
+        ],
+        "runtime_seconds": 0.057306100032292306
+      },
+      "B2": {
+        "pairs": [
+          [
+            3,
+            10
+          ],
+          [
+            18,
+            26
+          ],
+          [
+            7,
+            26
+          ]
+        ],
+        "runtime_seconds": 0.08356970001477748
+      },
+      "B3": {
+        "records": [
+          {
+            "step": 1,
+            "sku_pair": [
+              3,
+              10
+            ],
+            "value_before": 133.0,
+            "value_after": 128.0,
+            "marginal_gain": 10.0,
+            "score_at_lambda_0": 10.0
+          },
+          {
+            "step": 2,
+            "sku_pair": [
+              7,
+              17
+            ],
+            "value_before": 128.0,
+            "value_after": 126.0,
+            "marginal_gain": 4.0,
+            "score_at_lambda_0": 4.0
+          }
+        ],
+        "runtime_seconds": 13.01155239995569
+      }
+    }
+  }
+}

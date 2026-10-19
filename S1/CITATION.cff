@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please identify the manuscript and Supplementary Material S1 when referring to this public reproducibility artifact. No manuscript DOI or acceptance is asserted."
+type: software
+title: "Supplementary Material S1 for Budget Effects on Partial Storage Reassignment in Robotic Mobile Fulfillment Systems under Demand Drift"
+version: "1.0.0"
+date-released: "2026-10-20"
+authors:
+  - family-names: "Zhong"
+    given-names: "Shangyu"
+  - family-names: "Wang"
+    given-names: "Kun"
+abstract: "Frozen simulation code, per-seed outcomes, retail-case metadata and supplementary revision analyses for a manuscript under revision."

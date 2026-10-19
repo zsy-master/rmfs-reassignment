@@ -1,0 +1,125 @@
+{
+  "seed": 2026092460,
+  "changed_skus": 5,
+  "scenarios": {
+    "abrupt": {
+      "target_drift_ratio": 0.16666666666666666,
+      "realized_drift_ratio": 0.16666666666666666,
+      "initial_fingerprint": "60047e24021db045a21d002ec0ba3a445e2afc2512a6fd7ec9f76aec6e79da48",
+      "instance_fingerprint": "989297fb5cea9b54ea47b8b0c41e4f2f9d28fb62713768a1a845dbb5e3a1ac2b",
+      "B1": {
+        "pairs": [
+          [
+            9,
+            23
+          ],
+          [
+            19,
+            30
+          ],
+          [
+            12,
+            19
+          ],
+          [
+            12,
+            16
+          ],
+          [
+            7,
+            14
+          ]
+        ],
+        "runtime_seconds": 0.05112280009780079
+      },
+      "B2": {
+        "pairs": [
+          [
+            5,
+            8
+          ],
+          [
+            27,
+            30
+          ],
+          [
+            21,
+            27
+          ]
+        ],
+        "runtime_seconds": 0.0852609999710694
+      },
+      "B3": {
+        "records": [
+          {
+            "step": 1,
+            "sku_pair": [
+              5,
+              8
+            ],
+            "value_before": 137.0,
+            "value_after": 124.0,
+            "marginal_gain": 26.0,
+            "score_at_lambda_0": 26.0
+          },
+          {
+            "step": 2,
+            "sku_pair": [
+              21,
+              30
+            ],
+            "value_before": 124.0,
+            "value_after": 119.0,
+            "marginal_gain": 10.0,
+            "score_at_lambda_0": 10.0
+          }
+        ],
+        "runtime_seconds": 13.188333899946883
+      }
+    },
+    "gradual": {
+      "target_drift_ratio": 0.16666666666666666,
+      "realized_drift_ratio": 0.16666666666666666,
+      "initial_fingerprint": "60047e24021db045a21d002ec0ba3a445e2afc2512a6fd7ec9f76aec6e79da48",
+      "instance_fingerprint": "4c1118352a9434e8d08e130b031a30c139b5d57af5408f6bb1f9cbb27186805b",
+      "B1": {
+        "pairs": [
+          [
+            17,
+            19
+          ],
+          [
+            10,
+            30
+          ],
+          [
+            5,
+            29
+          ],
+          [
+            26,
+            28
+          ],
+          [
+            9,
+            28
+          ]
+        ],
+        "runtime_seconds": 0.056160900043323636
+      },
+      "B2": {
+        "pairs": [
+          [
+            5,
+            8
+          ]
+        ],
+        "runtime_seconds": 0.046462600002996624
+      },
+      "B3": {
+        "records": [],
+        "runtime_seconds": 4.538270600023679
+      }
+    }
+  }
+}

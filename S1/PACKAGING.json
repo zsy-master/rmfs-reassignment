@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "date": "2026-10-19",
+  "purpose": "Submission copy excluding author-only legacy helpers",
+  "source_archive_name": "补充材料v2.zip",
+  "source_archive_sha256": "579c0b334f294565838f61451a12563b6f9e8fd400a57c0455f762ab4f664cb0",
+  "author_approval": "2026-10-19: create a slim submission copy; preserve all originals",
+  "protocol_sha256_unchanged": "c2c2f2cd4c28ee0971bad10ce9003b8bfacda42a7a3b2930f08842f645523b65",
+  "omitted_auxiliary_files": {
+    "01检查环境.py": "286cba585a849b6d29183e656eea8aa012b7289c64e2bb10c27d8411fb4326f5",
+    "01源码检查.cmd": "f2b99f1f0d55500526ef0aeb31cbf0a0749db54dd361c77b6db8f54328a7d9e0",
+    "02单种子重跑.py": "3263ed2eed8e94b19a443e6d57aaa6bc4c75fbbf160dfce0e36e3dccad00b7db",
+    "02统计复算.cmd": "a87a787c965cd7f8f599ee2a2019fb36360dc76ca8b8ea95574bc31bb72774ac",
+    "03单种子重跑.cmd": "2f4af37b2772d8440cfc214e473dee215f76a3f37c4678f8b3d0cab266fe28dc",
+    "03完整实验.py": "d148675781679a98ebba021705e2cc7b075ffa3583ef971514e8b1c2eea530a4",
+    "04统计复算.py": "71ca65bc289dd4c0657ab2e4b832df58e1cbca0118d6bd31f0cb510e41616eeb",
+    "04完整重跑.cmd": "e31d7a6b5663e730b91cf4a6ad2bd19a0eaf77dceb8d029175b5de89ff11d129",
+    "05检查点回放.cmd": "a611965cee77811c2b4aa02b33735d9fc104a6c0527c26fe7b6ba1c66ec05de6",
+    "06运行测试.cmd": "c465f05a733720ec31fae87755d150c50314e93d6daabec0e560704059fbd156",
+    "python入口.cmd": "c4665f365fa808026561b5448f4b31bb947c80485e332b02d5a30fd9c38ceb07",
+    "launch.py": "ebd599103c396aac64213fe3a7abb43b72b00ec28d3c4481e1fbbd559383d55a",
+    "复现教程.md": "6bc543c89ba2e708a4fbff883b5dc505832d102e3f789c6897de6859b296dfe8",
+    "检查报告.md": "cd71577ae61df33b30d4ebe037fad4b2606b26ea18b2a3f7326f3f6133adfc4d"
+  },
+  "replaced_documentation": {
+    "README.md": {
+      "original_sha256": "096447fdff6e164f25db30591eeeb00b2b41ee09102a4f2563a03d95e7fbc435",
+      "archived_original": "provenance/frozen_README.md",
+      "distributed_sha256": "4e28e694e0ae5922aa5ce78e2a57bef6a078438f3953ba63afd08eca264460ac"
+    }
+  },
+  "unchanged_core_hashes": {
+    "analysis.py": "ccd256675e0861cf863670c6d728f5999e833ee8ffb5688ace287640d4308fe3",
+    "experiment.py": "ee2e4caf89b935e300ccbbcca40d80b751f5de6f078c68bd07968922de3362a1",
+    "figures.py": "b59fbbb100a4580bf1ef750188f727e3b11a32cc25362cc6e06dbbae370ff108",
+    "instances.py": "ad984a051ce0a7b318cd9f3944f817935d87474ea7aa1b5bf51eedb83386bb43",
+    "io_utils.py": "4a47cb02722a6801fa2e8ca0c8993c52b3db150fd75bb55706b64cdb5c13e9f0",
+    "reproduce.py": "7ea903902e5a10cc1d905b105638912260169ac7b61538a83d57cd94b14b00ae",
+    "rmfs_core.py": "ec5cfb3ea04db5c0cffdc894d7fb79f0a31c1487c977bf65b75e56c93cd1d5b7",
+    "synthetic_data.py": "3eba72ff930a24bb1c92f70f955236da9fe209a9abd5d83912bc7510d2a5e9cf"
+  },
+  "notes": [
+    "Original snapshot inventories remain unchanged.",
+    "The distributed-file manifest is SHA256SUMS.json.",
+    "No scientific outcome, algorithm, seed or parameter is removed or altered."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "tests": {
+    "approved_copy_passes": true,
+    "core_source_cannot_be_added_to_omissions": {
+      "rejected": true,
+      "error": "Unapproved distribution omission list"
+    },
+    "additional_documentation_exception_rejected": {
+      "rejected": true,
+      "error": "Unapproved documentation replacement"
+    },
+    "changed_core_source_rejected": {
+      "rejected": true,
+      "error": "rmfs_core.py"
+    },
+    "changed_primary_results_rejected": {
+      "rejected": true,
+      "error": "reference/formal_detail_100seeds.csv"
+    },
+    "changed_archived_documentation_rejected": {
+      "rejected": true,
+      "error": "Archived original documentation changed"
+    }
+  },
+  "method": "In-memory fault injection only; no files deleted or changed",
+  "preflight": {
+    "status": "PASS",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "frozen_files_checked": 355,
+    "frozen_files_original_bytes_checked": 354,
+    "approved_auxiliary_files_omitted": 14,
+    "documentation_files_replaced": 1,
+    "archived_original_documentation_verified": true,
+    "optional_local_files_omitted": 978,
+    "tcrit": {
+      "30": 2.0452296421327265,
+      "70": 1.9949454151072539,
+      "100": 1.9842169515086827
+    },
+    "protocol_sha256": "c2c2f2cd4c28ee0971bad10ce9003b8bfacda42a7a3b2930f08842f645523b65",
+    "supplement_source_sha256": "d75830d46f01d408b8a1f5bfce23cba74532f10348e2f731a090185331f66bd8"
+  }
+}

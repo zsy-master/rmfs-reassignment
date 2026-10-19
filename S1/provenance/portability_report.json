@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "original_executed_source_sha256": "f10e72149ceaee8f4a46496406948ec511b39c397cc6bf4fd52f5a1742d8d043",
+  "distributed_source_sha256": "d1044ad0d77094785074d2c3c6e8960a57e25b96ac3371a9d12f5bbdc273fec8",
+  "changes": [
+    "configurable output path",
+    "allow absent optional IDE/virtual-environment directories",
+    "clarify historical t critical"
+  ],
+  "numerical_and_Q2_selection_functions_AST_unchanged": true,
+  "primary_code_changed": false,
+  "archived_source_file_sha256": "6d83d3b0c03ab08ae6946b15e8dd01f2ec4ffd8c77b69d02eb1cb0da09d078f9",
+  "source_archival_note": "Recorded execution checksum is in batch_report.json; source text archived with platform newline normalization, if different."
+}

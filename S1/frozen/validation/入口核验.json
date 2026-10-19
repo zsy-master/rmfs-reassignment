@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "main_tests": 18,
+  "optional_asset_hashes": 17,
+  "syntax": "PASS",
+  "optional_help": "PASS",
+  "optional_imports": "PASS",
+  "missing_workbook_guard": "PASS",
+  "protected_output_guard": "PASS"
+}
